@@ -1,0 +1,18 @@
+body {
+    padding-top: 80px; /* Compensa la navbar fija */
+    background-color: #000F22;
+    color: white;
+}
+.hero-image {
+    height: 60vh;
+    object-fit: cover;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.content-section {
+    background-color: #052659;
+}
