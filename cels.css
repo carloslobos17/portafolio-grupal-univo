@@ -1,0 +1,49 @@
+body{
+    background-color: #090A0C;
+    padding: 0;
+    margin: 0;
+}
+
+/* .desktop-h2-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700; 
+    font-size: 45px;
+    font-style: normal; 
+    color: white;
+} */
+
+.desktop-title-hero {
+  font-family: "Irish Grover", system-ui;
+  font-weight: regular;
+  font-style: normal;
+  font-size: 128px;
+  color: white;
+}
+
+.desktop-h2-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: white;
+}
+
+
+.desktop-subtitle-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600; 
+    font-size: 48px;
+    font-style: normal; 
+    color: white;
+}
+
+.desktop-text-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-size: 24px;
+    font-style: normal; 
+    color: white;
+}
