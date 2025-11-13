@@ -47,3 +47,13 @@ body{
     font-style: normal; 
     color: white;
 }
+
+.atras{
+    margin: 20px;
+    height: 50px;
+}
+
+.foto-perfil{
+    height: 486px;
+    width: 426px;
+}
