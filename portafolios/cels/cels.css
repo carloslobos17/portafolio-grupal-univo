@@ -1,7 +1,5 @@
 body{
-    background-color: #090A0C;
-    padding: 0;
-    margin: 0;
+    background-color: #090A0C !important;
 }
 
 /* .desktop-h2-bold {
@@ -56,4 +54,8 @@ body{
 .foto-perfil{
     height: 486px;
     width: 426px;
+}
+
+.box-border-color{
+    border-color:#8064E0 !important; 
 }
