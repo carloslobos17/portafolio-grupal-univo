@@ -29,3 +29,8 @@ body {
   opacity: 1 !important;
 }
 
+.img-equipo {
+    width: 100%;
+    height: 300px; /* Altura fija para todas */
+    object-fit: cover;
+}
