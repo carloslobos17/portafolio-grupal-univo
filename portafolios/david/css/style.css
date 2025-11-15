@@ -23,6 +23,15 @@ header {
     background-color: #1A2847;
 }
 
+.text-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-size: 24px;
+    font-style: normal; 
+    color: white;
+}
+
 .navbar {
     padding: 1.5rem 0;
 }
