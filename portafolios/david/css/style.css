@@ -43,5 +43,34 @@ header {
 
 .nav-link.active {
     background-color: #3B82F6;
-    color: white ;
+    color: white;
+}
+
+.section-separator {
+    border-top: 1px solid #334155;
+    margin: 4rem 0;
+}
+
+.card {
+    background-color: #1A2847;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.skill-card {
+    background-color: var(--card-bg);
+    border: 2px solid #334155;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: #3B82F6;
 }
