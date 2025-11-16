@@ -34,3 +34,53 @@ body {
     height: 300px; /* Altura fija para todas */
     object-fit: cover;
 }
+
+/* Tarjetas de info */
+.info-box {
+    background: rgba(255, 255, 255, 0.08);
+    border-left: 4px solid #0d6efd;
+}
+
+/* Inputs modernos */
+.contact-input {
+    background: rgba(0, 0, 0, 0.4) !important;
+    color: #fff !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.2) !important;
+    padding: 12px;
+}
+
+.contact-input:focus {
+    border-color: #0d6efd !important;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.4);
+}
+
+/* Botón enviar */
+.submit-btn {
+    padding: 12px;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.submit-btn:hover {
+    background: #97a4b7;
+}
+
+/* Iconos redes sociales */
+.social-btn {
+    width: 45px;
+    height: 45px;
+    background: rgba(255,255,255,0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background: #0d6efd;
+    transform: translateY(-3px);
+}

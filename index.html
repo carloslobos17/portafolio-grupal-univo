@@ -349,90 +349,90 @@
         </div>
         </div>
 
-        <div class="container py-5">
-        <div class="row g-4 align-items-center">
+    <div class="container py-5">
+        <div class="row g-4 align-items-start">
+            <!-- INFORMACIÓN + REDES -->
             <div class="col-md-6 text-white">
-                <div class="d-flex align-items-start mb-4">
-                    <i class="bi bi-envelope-at-fill fs-1 me-3"></i>
+
+                <div class="info-box d-flex align-items-start mb-4 p-3 rounded-4">
+                    <i class="bi bi-envelope-at-fill fs-1 me-3 text-primary"></i>
                     <div>
-                        <h5 class="mb-1">Nuestro Email</h5>
+                        <h5 class="mb-1 fw-bold">Nuestro Email</h5>
                         <p class="mb-0">info@devcode.com</p>
                         <p class="mb-0">contacto@devcode.com</p>
                     </div>
                 </div>
-                <div class="d-flex align-items-start mb-4">
-                    <i class="bi bi-telephone-fill fs-1 me-3"></i>
+
+                <div class="info-box d-flex align-items-start mb-4 p-3 rounded-4">
+                    <i class="bi bi-telephone-fill fs-1 me-3 text-primary"></i>
                     <div>
-                        <h5 class="mb-1">Teléfono</h5>
+                        <h5 class="mb-1 fw-bold">Teléfono</h5>
                         <p class="mb-0">+503 7420-1234</p>
                         <p class="mb-0">+503 7544-5678</p>
                     </div>
                 </div>
-                <h5 class="mt-4">Redes Sociales</h5>
+
+                <h5 class="fw-bold mt-4">Redes Sociales</h5>
                 <div class="d-flex align-items-center gap-3 mt-2">
 
-                    <a href="#" class="text-white fs-3 text-decoration-none">
+                    <a href="#" class="social-btn">
                         <i class="bi bi-instagram"></i>
                     </a>
 
-                    <a href="#" class="text-white fs-3 text-decoration-none">
+                    <a href="#" class="social-btn">
                         <i class="bi bi-facebook"></i>
                     </a>
 
-                    <a href="#" class="text-white fs-3 text-decoration-none">
+                    <a href="#" class="social-btn">
                         <i class="bi bi-linkedin"></i>
                     </a>
 
-                    <a href="#" class="text-white fs-3 text-decoration-none">
+                    <a href="#" class="social-btn">
                         <i class="bi bi-github"></i>
                     </a>
 
                 </div>
             </div>
+
+            <!-- FORMULARIO -->
             <div class="col-md-6">
-                <div class="row justify-content-center">
-                    <div class="col-md-8 col-lg-10 bg-primary bg-opacity-25 p-4 rounded-4">
-                        <h2 class="text-center mb-4 text-white">Trabajemos juntos</h2>
+                <div class="contact-card bg-primary bg-opacity-25 p-4 rounded-4 shadow-sm">
+                    <h2 class="text-center mb-4 text-white fw-bold">Trabajemos juntos</h2>
 
-                        <form class="was-validated">
-                            <div class="mb-3">
-                                <label for="">Nombre Completo:</label>
-                                <input type="text" class="form-control bg-dark text-white border-0" placeholder="Nombre*" required>
-                                <div class="invalid-feedback">
-                                    Por favor ingresa tu nombre.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="">Correo Electronico:</label>
-                                <input type="email" class="form-control bg-dark text-white border-0" placeholder="Correo*" required>
-                                <div class="invalid-feedback">
-                                    Ingresa un correo válido.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="">Asunto:</label>
-                                <input type="text" class="form-control bg-dark text-white border-0" placeholder="Asunto*" required>
-                                <div class="invalid-feedback">
-                                    Este campo no puede estar vacío.
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="">Cometario:</label>
-                                <textarea class="form-control bg-dark text-white border-0" rows="4" placeholder="Mensaje*" required></textarea>
-                                <div class="invalid-feedback">
-                                    Por favor escribe tu mensaje.
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-primary w-100">
-                                Enviar
-                            </button>
+                    <form class="was-validated">
+                        <div class="mb-3">
+                            <label class="text-white fw-semibold">Nombre Completo:</label>
+                            <input type="text" class="form-control contact-input" placeholder="Nombre*" required>
+                            <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+                        </div>
 
-                        </form>
-                    </div>
+                        <div class="mb-3">
+                            <label class="text-white fw-semibold">Correo Electrónico:</label>
+                            <input type="email" class="form-control contact-input" placeholder="Correo*" required>
+                            <div class="invalid-feedback">Ingresa un correo válido.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="text-white fw-semibold">Asunto:</label>
+                            <input type="text" class="form-control contact-input" placeholder="Asunto*" required>
+                            <div class="invalid-feedback">Este campo no puede estar vacío.</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="text-white fw-semibold">Comentario:</label>
+                            <textarea class="form-control contact-input" rows="4" placeholder="Mensaje*" required></textarea>
+                            <div class="invalid-feedback">Por favor escribe tu mensaje.</div>
+                        </div>
+
+                        <button type="submit" class="btn btn-light w-100 fw-semibold submit-btn">
+                            Enviar mensaje
+                        </button>
+
+                    </form>
                 </div>
             </div>
         </div>
-</div>
+    </div>
 
     </div>
 
