@@ -1,6 +1,6 @@
 # portafolio-grupal-univo
 
-# 🧩 DevCode – Portafolio Grupal
+# DevCode – Portafolio Grupal
 
 DevCode es un portafolio web desarrollado por cuatro estudiantes de Ingeniería de Software. El proyecto muestra nuestras habilidades técnicas, trayectoria académica y los proyectos destacados que hemos creado a lo largo de nuestra formación universitaria.
 
@@ -26,7 +26,6 @@ El enfoque principal es ofrecer una presentación clara, atractiva y profesional
 - **HTML5**
 - **CSS3**
 - **Bootstrap 5.3**
-- **Bootstrap Icons**
 
 ------------
 
@@ -42,7 +41,7 @@ El enfoque principal es ofrecer una presentación clara, atractiva y profesional
 
 ## Equipo DevCode
 
-- **Carlos Lobo** – Back-end Developer
-- **Orlin Manzanares** – Back-end Developer
-- **Melissa Araujo** – Back-end Developer
-- **Gustavo Rivas** – Web Developer Junior
+- **Carlos Lobo  U20220190** – Back-end Developer
+- **Orlin Manzanares  U20230311** – Web Developer Junior
+- **Melissa Araujo  U20230620** – Back-end Developer
+- **Gustavo Rivas  U20230321** – Web Developer Junior
